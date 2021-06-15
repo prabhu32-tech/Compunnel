@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d3exercise6</title>
+</head>
+
+<body>
+    <table border="1px" width="1200px" align="center" style="border-collapse: collapse;">
+        <tr>
+            <td>
+                <table cellspacing="0" width="1200px" cellpadding="20">
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="text-align: left;font-size: 20px;" >Basic Details
+                                <hr width="1200">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label>Source * :</label>
+                                    <select>
+                                        <option value="s1">Lorem</option>
+                                        <option value="s2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>First Name * :</label>
+                                    <input type="text" name="fname" class="txtName"><br><br>
+                                    <label>Domain * :</label>
+                                    <select>
+                                        <option value="d1">IT</option>
+                                        <option value="d2">Non-IT</option>
+                                        <option value="d3">Healthcare</option>
+                                    </select><br><br>
+                                    <label>Role * :</label>
+                                    <select>
+                                        <option value="r1">Developer</option>
+                                        <option value="r2">Security</option>
+                                        <option value="r3">Manager</option>
+                                    </select><br><br>
+                                    <label>Current Job Title * :</label>
+                                    <input type="text" name="jobTitle" class="prabhu"><br><br>
+                                    <label>Work Authorization * :</label>
+                                    <select id="wa" class="Id">
+                                        <option value="wa1">US citizen</option>
+                                        <option value="wa2">Indian citizen</option>
+                                    </select><br><br>
+                                    <label>Assignment Type :</label>
+                                    <select id="at" class="prabhu">
+                                        <option value="at1">Right To Hire</option>
+                                        <option value="at2">Permanent</option>
+                                    </select><br><br>
+                                    <label>Pay Rate * :</label>
+                                    <input type="number" name="pr" class="prabhu"><br><br>
+                                    <label>Date Of Birth</label>
+                                    <input type="date" name="dob" class="prabhu">
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label>Entity Group * :</label>
+                                    <select style="background-color: #d4cece;">
+                                        <option value="s1">Lorem</option>
+                                        <option value="s2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>Last Name * :</label>
+                                    <input type="text" name="lname" class="d3brdr"><br><br>
+                                    <label>Sub-Domain * :</label>
+                                    <select>
+                                        <option value="sd1">IT</option>
+                                        <option value="sd2">Non-IT</option>
+                                        <option value="sd3">Healthcare</option>
+                                    </select><br><br>
+                                    <label>Industry :</label>
+                                    <select id="i" class="d3brdr">
+                                        <option value="i1">Developer</option>
+                                        <option value="i2">Security</option>
+                                        <option value="i3">Manager</option>
+                                    </select><br><br>
+                                    <label>Notice Period * :</label>
+                                    <select id="np" class="d3brdr">
+                                        <option value="np1">Lorem</option>
+                                        <option value="np2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>Total Experience * :</label>
+                                    <select id="ex" class="d3brdr">
+                                        <option value="ex">Lorem</option>
+                                        <option value="ex">Ipsum</option>
+                                    </select><br><br>
+                                    <label>Engagement Type :</label>
+                                    <select id="at" class="d3brdr">
+                                        <option value="at1">Right To Hire</option>
+                                        <option value="at2">Permanent</option>
+                                    </select><br><br><br>
+                                    <label>Onboarding Status :</label>
+                                    <select id="os" class="d3brdr">
+                                        <option value="os1">Lorem</option>
+                                        <option value="os2">Ipsum</option>
+                                    </select><br><br>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label>Job Availability * :</label>
+                                    <select id="s" class="d3brdr">
+                                        <option value="s1">Lorem</option>
+                                        <option value="s2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>E-Mail Id * :</label>
+                                    <input type="email" name="fname" class="d3brdr"><br><br>
+                                    <label>Primary Skills * :</label>
+                                    <select id="d" class="d3brdr">
+                                        <option value="d1">IT</option>
+                                        <option value="d2">Non-IT</option>
+                                        <option value="d3">Healthcare</option>
+                                    </select><br><br>
+                                    <label>Function Area Development * :</label>
+                                    <select id="r" class="d3brdr">
+                                        <option value="r1">Developer</option>
+                                        <option value="r2">Security</option>
+                                        <option value="r3">Manager</option>
+                                    </select><br><br>
+                                    <label>Open To Relocation * :</label>
+                                    <select id="otr" class="d3brdr">
+                                        <option value="otr1">Lorem</option>
+                                        <option value="otr2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>Total US Experience :</label>
+                                    <input type="number" name="exp" class="d3brdr"><br><br>
+                                    <label>Rating :</label>
+                                    <select id="rt" class="d3brdr">
+                                        <option value="rt1">Lorem</option>
+                                        <option value="rt2">Ipsum</option>
+                                    </select><br><br>
+                                    <label>Anuual Salary :</label>
+                                    <input type="number" name="asal" class="d3brdr"><br><br>
+                                    <label>Marriage Anniversary Date</label>
+                                    <input type="date" name="dob" class="d3brdr">
+                                </form>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <label>Career Summary :</label>&nbsp;&nbsp;&nbsp;
+                                <textarea name="" id="" cols="135" rows="5" class="d3brdr"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td style="padding-left: 215px;">
+                                <button type="reset"
+                                    style="background-color: rgb(94, 10, 10); color: aqua;">RESET</button>
+                                <button type="submit"
+                                    style="background-color: rgb(5, 5, 85);color: aqua;">SUBMIT</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
