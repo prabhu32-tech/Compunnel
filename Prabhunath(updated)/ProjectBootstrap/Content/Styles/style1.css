@@ -1,0 +1,63 @@
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 2rem;
+}
+.contentMargin{
+margin: 3rem 6rem;
+
+}
+@media screen and (min-width: 576px) {
+    body {
+      background-color: lightgreen;
+    }
+    form{
+        color: rgb(54, 9, 9);
+        background-color: rgb(81, 173, 204);   
+    }
+    list {
+        color: rgb(54, 9, 9);
+        background-color: rgb(81, 173, 204);
+
+    }
+  }
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }    
+    form{
+        color: rgb(54, 9, 9);
+        background-color: rgb(81, 173, 204);   
+    }
+    list{
+        color: rgb(54, 9, 9);
+        background-color: rgb(81, 173, 204);   
+    }
+  }
+  @media screen and (min-width: 992pxx) {
+    body {
+      background-color: rgb(37, 233, 37);
+    }
+    form{
+        color: rgb(54, 9, 9);
+        background-color: rgb(65, 226, 50);   
+    }
+    list{
+        color: rgb(54, 9, 9);
+        background-color: rgb(65, 226, 50);   
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: rgb(90, 146, 90);
+    }
+    form{
+        color: rgb(54, 9, 9);
+        background-color: rgb(169, 187, 238);   
+    }
+    list{
+        color: rgb(54, 9, 9);
+        background-color: rgb(55, 94, 201);   
+    }      
+  }
