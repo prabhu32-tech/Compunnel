@@ -1,0 +1,70 @@
+.banner{
+height: 100vh;
+width: 100%;
+background: url('../Images/backgroundImage.jpg');
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+position: sticky;
+}
+@media screen and (min-width: 480px){
+   .intro{
+    padding-top: 8rem;
+    }
+   .sectiongap{
+    margin: 5rem 4rem;
+   }
+   hr {
+    border-top: 3px dotted black;
+  }
+  .box{
+    width: 14rem; height: 16rem; border: 4px solid black ;
+    margin-right: 0;
+  }  
+  .insideBox{
+    padding: 2rem;
+  }
+}
+.outsideBox{
+    margin-top: 3rem;
+}
+.rightShift{
+    text-align: right;
+}
+.iconText{
+    margin-top: 3rem;
+}
+.aboutButton{
+    align-items: center;
+}
+@media screen and (min-width: 480px){
+.funFactSec{
+    background-color: black;
+    color: blanchedalmond;
+    height: 70vh;
+}
+}
+.whiteBox{
+    width: 14rem; height: 16rem; border: 4px solid white ;
+    margin: 4rem 2rem;
+    color: white;
+}
+.aboutText{
+    margin-top: 4rem;
+}
+.banner2{
+    height: 25rem;
+    width: 100%;
+    background: url('../Images/backgroundImage.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+.textBanner2{
+    margin: 10rem 0rem 10rem 4rem;
+    color: white;
+}
+footer{
+    text-align: center;
+}
