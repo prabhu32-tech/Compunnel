@@ -7,7 +7,7 @@ background-size: cover;
 background-repeat: no-repeat;
 position: sticky;
 }
-@media screen and (min-width: 480px){
+
    .intro{
     padding-top: 8rem;
     }
@@ -24,7 +24,7 @@ position: sticky;
   .insideBox{
     padding: 2rem;
   }
-}
+
 .outsideBox{
     margin-top: 3rem;
 }
@@ -67,4 +67,21 @@ position: sticky;
 }
 footer{
     text-align: center;
+}
+@media screen and (max-width: 991px) {
+    .sectiongap { margin: 4rem 2rem;}
+    .sec_myWork .col-md-4{margin-bottom: 20px;}
+    .sec_myWork .box{margin-right: 2rem;}
+    form{margin-left: 4rem;}
+    .sec_aboutMe {margin-right: 2rem;}
+}
+@media screen and (max-width: 768px) {
+    .sec_myWork .box{width: 100%; height: auto;}
+    .sec_myWork .box h2 br{display: none;}
+}
+@media screen and (max-width: 560px) {
+}
+@media screen and (max-width: 480px) {
+    .sec_myWork .insideBox{ padding: 1rem;}
+    .sec_myWork .box h2{ font-size: 1.5rem;}
 }
